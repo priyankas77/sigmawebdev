@@ -1,3 +1,19 @@
- td{
-    border: 2px solid blue;
- }
+/* p{
+    background-color: aquamarine;
+}
+a{
+    background-color: rgb(212, 255, 125);
+} */
+
+.red{
+ color: aqua;
+}
+.bg-yellow{
+    background-color: yellow;
+
+}
+#firstdiv{
+    /* color: aliceblue; */
+}
+/* class and id created here class means if i say like girls of class 10 it means they all belong to the same 
+class and id means their adhar number they will be unique. */
