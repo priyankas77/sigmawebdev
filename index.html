@@ -3,24 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Css styling method </title>
-    <link rel="stylesheet" href="style.css">
-    <!-- <style>
-        h1{
-            color: black;
-            background-color: aquamarine;
-        }
-    </style> -->
+    <title>child and descendent selector </title>
+        <style>
+            div > p{
+            color: aqua;
+            background-color: rgb(0, 0, 0);
+            }
+        </style>
+
 </head>
 <body>
-    <!-- <h1 style="color: red;background-color: yellow";>Three ways to add css styling </h1> -->
-    <h1> Three ways to add css styling </h1>
-   <div>
-    <ol>
-        <li> Inline CSS </li>
-        <li> Internal CSS </li>
-        <li> External CSS </li>
-    </ol>
+    <div class="red">
+        I am a div
+        <p> i am in full mood </p>
     </div>
+    <span  id="green">
+        I am a new div
+    </span>
 </body>
 </html>
