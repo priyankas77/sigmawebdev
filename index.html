@@ -3,27 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Pragraphs </title>
-    <link rel="stylesheet" href="style.css">
+    <title> Specificity </title>
     <style>
-        para1{
-            background-color: yellow;
+        /* [data-x=a]{
+            color: maroon;
+        } */
+        /* h1{
+            background-color: beige;
+        } */
+        /* yellow{
+        color: yellow;   
+        background-color: black;   
+        } */
+        cred{
             color: red;
+        }
+        cpurple{
+            color:purple;
+        }
+        a.harryclass.rohan-class[href]:hover{
+            color: blueviolet;
         }
     </style>
 </head>
 <body>
-    <div class="para1">Hello I am para 1 .In morning i have learnt 
-        css and html color fonts specificity.what have you learn today
+    <div>
+        <h1 class="yellow cred cpurple" data-x="a">CSS specification </h1>
     </div>
-    <div class="para2">Hello I am para 1 .In morning i have learnt 
-        css and html color fonts specificity.what have you learn today</div>
-    <div class="para3">Hello I am para 1 .In morning i have learnt 
-        css and html color fonts specificity.what have you learn today</div>
-    <div class="para4">Hello I am para 1 .In morning i have learnt 
-        css and html color fonts specificity.what have you learn today</div>
-    <div class="para5">Hello I am para 1 .In morning i have learnt 
-        css and html color fonts specificity.what have you learn today</div>
-
 </body>
 </html>
