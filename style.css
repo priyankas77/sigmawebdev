@@ -1,29 +1,6 @@
-.para2{
-    background-color: aquamarine;
-    color: black;
-    padding: 5px;
-    margin: 5px;
-    border:10px;
+.red{
+    color:red;
 }
-.para3{
-    background-color: blueviolet;
-    color: azure;
-    padding: 5px;
-    margin: 5px;
-    border: 10px;
-}
-.para4{
-    background-color: coral;
-    color: cornsilk;
-    padding: 5px;
-    margin: 5px;
-    border: 10px;
-
-}
-.para5{
-    background-color: burlywood;
-    color: black;
-    padding: 5px;
-    margin: 5px;
-    border: 10px;
+.bg-yellow{
+    background-color: yellow;
 }
