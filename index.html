@@ -3,13 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Class Id </title>
- <link rel="stylesheet" href="style.css">
+    <title> List and Their Styles </title>
+    <style>
+        .ul1{
+            list-style-type: decimal;
+            list-style-position:inside ;
+            list-style-type: symbols();
+        }
+        .ul2{
+            list-style-type: disc;
+            list-style-position: outside;
+        }
+        .ul3{
+            list-style-type: circle;
+            list-style-position: inside;
+        }
+        .ul4{
+            list-style-type: lower-roman;
+            list-style-position: outside;
+        }
+    </style>
 </head>
 <body>
-    <div id ="firstdiv" class="red bg-yellow">First</div>
-    <div id="seconddiv">Second</div>
-    <span class ="red"></span>
-    
+   <ul class ="ul1">
+    <li>Hello World</li>
+    <li>This is ul1</li>
+   </ul>
+   <ul class="ul2">
+   <li>Hello WORLD</li>
+   <li>This is ul2</li>
+   </ul>
+   <ul class="ul3">
+    <li>Hello World</li>
+    <li>This is ul3</li>
+   </ul>
+   <ul class="ul4">
+    <li>Hello World</li>
+    <li>This is ul4</li>
+   </ul>
 </body>
 </html>
