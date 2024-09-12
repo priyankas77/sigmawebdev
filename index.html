@@ -3,81 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> CSS card design</title>
+    <title>Css Positions</title>
     <style>
-        body{
-            background-color: darkgray;
+        *{
+           margin: 0;
+           padding: 0;
+        }    
+        .box{
+            height: 80PX;
+            width: 1000px;
+            padding: 4px;
+            margin: 4px;
+            border: 3px solid black;
         }
-        .card{
-            background-color: aliceblue;
-            height: 499px;
-            width: 344px;
-            border-radius: 7px;
-            padding: 0px 0px 2px;
-            }
-            .image{
-                padding: 10px;
-            }
-            .image img{
-                border-radius: 5px;
-            }
-            .content{
-                padding: 13px ;
-            }
-            .content p{
-                font-family: cursive;
-                font-size: 13px ;
-            }
-            .content h3{
-                font-family: cursive;
-                color: blueviolet;
-            }
-            .capsules{
-                border: 2px;
-                padding: 2 px 6px;
-                border-radius: 7px;
-                padding-left: 10px;
-            }
-            .capsules span {
-                border: 2px solid grey;
-                padding: 2px 6px;
-                border-radius: 7px;
-                font-size: 12px;
-                font-family:Verdana, Geneva, Tahoma, sans-serif;
-
-            }
-            .button{
-                text-align: center;
-                margin-bottom: 3px;
-                cursor: pointer;
-                
-            }
-            .button button{
-                padding: 3px;
-                border-radius: 8px;
-                background-color:rgb(166, 198, 226);
-                color: blue;
-
-            }
+        .box1{
+            background-color: aqua;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            
+        }
+        .box2{
+            background-color: blanchedalmond;
+        }
+        .box3{
+            background-color: cornsilk;
+            position: relative;
+        }
     </style>
 </head>
 <body>
-     <div class="card">
-        <div class="image">
-            <img width="320"
-            src="https://images.pexels.com/photos/3880179/pexels-photo-3880179.jpeg" alt="">
-        </div>
-        <div class="capsules">
-            <span> Nature </span>
-            <span> LAKE </span>
-        </div>
-        <div class="content">
-            <h3> Good Morning </h3>
-              <p> The way to get started is to quit talking and begin doing </p>
-        </div>
-      <div class="button">
-        <button> Come everyday </button>
-      </div>
-     </div>
+    <div class="box box1"></div>
+    <div class="box box2"></div>
+    <div class="box box3"></div>
 </body>
 </html>
