@@ -3,43 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> List and Their Styles </title>
+    <title> CSS card design</title>
     <style>
-        .ul1{
-            list-style-type: decimal;
-            list-style-position:inside ;
-            list-style-type: symbols();
+        body{
+            background-color: darkgray;
         }
-        .ul2{
-            list-style-type: disc;
-            list-style-position: outside;
-        }
-        .ul3{
-            list-style-type: circle;
-            list-style-position: inside;
-        }
-        .ul4{
-            list-style-type: lower-roman;
-            list-style-position: outside;
-        }
+        .card{
+            background-color: aliceblue;
+            height: 499px;
+            width: 344px;
+            border-radius: 7px;
+            padding: 0px 0px 2px;
+            }
+            .image{
+                padding: 10px;
+            }
+            .image img{
+                border-radius: 5px;
+            }
+            .content{
+                padding: 13px ;
+            }
+            .content p{
+                font-family: cursive;
+                font-size: 13px ;
+            }
+            .content h3{
+                font-family: cursive;
+                color: blueviolet;
+            }
+            .capsules{
+                border: 2px;
+                padding: 2 px 6px;
+                border-radius: 7px;
+                padding-left: 10px;
+            }
+            .capsules span {
+                border: 2px solid grey;
+                padding: 2px 6px;
+                border-radius: 7px;
+                font-size: 12px;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+            }
+            .button{
+                text-align: center;
+                margin-bottom: 3px;
+                cursor: pointer;
+                
+            }
+            .button button{
+                padding: 3px;
+                border-radius: 8px;
+                background-color:rgb(166, 198, 226);
+                color: blue;
+
+            }
     </style>
 </head>
 <body>
-   <ul class ="ul1">
-    <li>Hello World</li>
-    <li>This is ul1</li>
-   </ul>
-   <ul class="ul2">
-   <li>Hello WORLD</li>
-   <li>This is ul2</li>
-   </ul>
-   <ul class="ul3">
-    <li>Hello World</li>
-    <li>This is ul3</li>
-   </ul>
-   <ul class="ul4">
-    <li>Hello World</li>
-    <li>This is ul4</li>
-   </ul>
+     <div class="card">
+        <div class="image">
+            <img width="320"
+            src="https://images.pexels.com/photos/3880179/pexels-photo-3880179.jpeg" alt="">
+        </div>
+        <div class="capsules">
+            <span> Nature </span>
+            <span> LAKE </span>
+        </div>
+        <div class="content">
+            <h3> Good Morning </h3>
+              <p> The way to get started is to quit talking and begin doing </p>
+        </div>
+      <div class="button">
+        <button> Come everyday </button>
+      </div>
+     </div>
 </body>
 </html>
