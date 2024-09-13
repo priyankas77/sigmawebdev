@@ -3,25 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> CSS overflow </title>
+    <title>Css multicolor</title>
     <style>
-        div{
-            overflow: scroll;
-            color: brown;
-            background-color: azure;
-            font-family: cursive;
-            font-size: medium;
-            height: 60px;
-            width: 200px;
-            border: 5px solid;
+        :root{
+             --primary-color:rgb(237, 178, 224);
+             --text-color:black;
+             --secondary-color:rgb(156, 125, 188);
         }
+        body{
+            background-color: var(--secondary-color);
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 400;
+        }
+        nav{
+            background-color: var(--primary-color);
+            padding: 10px;
+
+        }
+          ul li{
+            list-style: none;
+            display: inline;
+            padding: 23px;
+            
+          }
+          ul li a{
+              color: indigo;
+          }
     </style>
 </head>
 <body>
-    <div> Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt facere eligendi dignissimos porro dolor molestiae repudiandae tempore, amet quaerat soluta fugiat, in ducimus magni id quibusdam accusantium quis non ad.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet nisi eius necessitatibus dolorem non, illo ratione cupiditate iure pariatur molestiae quasi neque vero magnam labore fuga? Eius natus ducimus quod?
-    </div>
-</body></html>
-
-
-  <!-- overflow can also br auto , hidden ,visible  -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">E-mail</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+</body>
+</html>
